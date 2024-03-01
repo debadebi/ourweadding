@@ -1917,4 +1917,27 @@ form label {
     height: 70px;
     width: 89px;
   }
+  #bengali1 {
+ 
+    font-family: 'CharukolaUltraLight', Arial, sans-serif !important;
+    font-size: 25pt !important;
+  }
+
+  #bengali2_1{
+    /* font-family:"../fonts/Lipishree Unicode.woff" !important; */
+    /* font-family: "Mina", sans-serif;
+    font-weight: 200;
+    font-style: normal; */
+    font-family: 'CharukolaUltraLight', Arial, sans-serif !important;
+    font-size: 30px !important;
+  }
+  #bengali3{
+    /* font-family:"../fonts/Lipishree Unicode.woff" !important; */
+    /* font-family: "Mina", sans-serif;
+    font-weight: 200;
+    font-style: normal; */
+    font-family: 'CharukolaUltraLight', Arial, sans-serif !important;
+    font-size: 17px !important;
+    color: #828282;
+  }
 }
