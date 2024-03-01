@@ -871,7 +871,7 @@ form label {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 16px;
+    font-size: 25px;
   }
 }
 #fh5co-header .display-tc .btn,
@@ -1839,7 +1839,7 @@ form label {
 .js .animate-box {
   opacity: 0;
 }
-
+/* ------------------------- */
 #bengali{
   /* font-family:"../fonts/Lipishree Unicode.woff" !important; */
   /* font-family: "Mina", sans-serif;
@@ -1883,3 +1883,38 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 600px) {
+  #bengali{
+    
+    font-size: 55pt !important;
+  }
+  #fh5co-header{
+    background-position: -222px 0px !important;
+  }
+  iframe {
+    width: 360px;
+  }
+  .simply-countdown > .simply-section {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: rgba(241, 78, 149, 0.8);
+    margin: 0 4px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    animation: pulse 1s ease infinite;
+  }
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 23px;
+  }
+  .simply-countdown > .simply-section > div {
+    display: table-cell;
+    vertical-align: middle;
+    height: 70px;
+    width: 89px;
+  }
+}
